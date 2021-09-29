@@ -15,11 +15,11 @@ To start you need to create a Scill Application in the [Admin Panel](https://adm
 
 Once done you can open the Project in the Unreal Editor. Here you need to open the BP_ScillGameMode and add the API Key of your Scill App to the API Key property of the Scill Client Backend Component.
 
-(ScillClientBackendComponent.png)[/ActionRPG/Documentation/ScillClientBackendComponent.png]
+[ScillClientBackendComponent.png](/ActionRPG/Documentation/ScillClientBackendComponent.png)
 
 In the same manner change the UserId and ApplicationId properties on the Scill Client Component on the BP_ScillPlayerController class to a user id and the application id of your Scill App. 
 
-(ScillClientComponent.png.png)[/ActionRPG/Documentation/ScillClientComponent.png.png]
+[ScillClientComponent.png](/ActionRPG/Documentation/ScillClientComponent.png)
 
 Afterwards you can start the game.
 
