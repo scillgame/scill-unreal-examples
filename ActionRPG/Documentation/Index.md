@@ -44,8 +44,8 @@ This is already the game specific structure - take a look at the different Bluep
 
 The Action RPG example sends the following events and metadata. Use the same event names and metadata in the configuration of your Scill App. If you want to have a detailed look at how exactly the sample sends events to Scill, open the BP_ScillGameMode and inspect the respective "Receive Event" functions.
 
-- kill-enemy: used for each killed enemy. Sent at the end of a play session together with the **Amount** of enemies killed and the current session id.
-- use-item: used whenever you use a potion or a skill with the respective **Item Names**: 
+- **kill-enemy**: used for each killed enemy. Sent at the end of a play session together with the **Amount** of enemies killed and the current session id.
+- **use-item**: used whenever you use a potion or a skill with the respective **Item Names**: 
     - **health**: Health Potion
     - **mana**: Mana Potion
     - **combined**: Combined Potion  
