@@ -98,3 +98,5 @@
 
 /build-config.local.js
 
+# ignore Documentation directory
+!/Documentation
